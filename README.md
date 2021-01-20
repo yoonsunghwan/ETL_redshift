@@ -5,6 +5,7 @@ ETL project for udacity
 ETL pipleline for a database hosted on AWS Redshift.
 The data will be loaded from a public S3 Bucket to a staging table on Redshift, from the stage table the data will be transformed into tables then can be readily accessed for data analytics.
 
+-----
 # Files
 ------ 
 
@@ -20,6 +21,7 @@ Python script to extract transfrom and load the data using the SQL scripts found
 #### create_tables.py
 Python script that will use SQL queries found in sql_queries.py to drop/create a new table for the ETL process.
 
+------
 # How To 
 -----  
 First edit dwh.cfg and add the necessary parameters.  
